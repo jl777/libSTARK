@@ -124,7 +124,7 @@
         std::vector<std::string> words{it, {}};
 
         if(words.size() != 4){
-            std::cout<<"Bad format of line, each line must contain exactly 4 words\n" << words << "\n";
+            std::cout<<"Bad format of line, each line must contain exactly 4 words\n" << line << "\n";
             throw("bad format");
         }
 
