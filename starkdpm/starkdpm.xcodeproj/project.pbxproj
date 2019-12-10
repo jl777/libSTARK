@@ -1,0 +1,156 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		048FAC16239F601E000DFCEA /* AES160hashcLOCI_EvalPoly.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AES160hashcLOCI_EvalPoly.cpp; sourceTree = "<group>"; };
+		048FAC17239F601E000DFCEA /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		048FAC18239F601E000DFCEA /* AES160hashcLOCI_instance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AES160hashcLOCI_instance.hpp; sourceTree = "<group>"; };
+		048FAC19239F601E000DFCEA /* AES160hashcLOCI_constraints.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AES160hashcLOCI_constraints.cpp; sourceTree = "<group>"; };
+		048FAC1A239F601E000DFCEA /* constraints_AES160hashcLOCI.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = constraints_AES160hashcLOCI.txt; sourceTree = "<group>"; };
+		048FAC1B239F601E000DFCEA /* row_constraints_parser_AES160LOCIhashc.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = row_constraints_parser_AES160LOCIhashc.py; sourceTree = "<group>"; };
+		048FAC1C239F601E000DFCEA /* AES160hashcLOCI_instance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AES160hashcLOCI_instance.cpp; sourceTree = "<group>"; };
+		048FAC1D239F601E000DFCEA /* AES160hashcLOCI_witness.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AES160hashcLOCI_witness.cpp; sourceTree = "<group>"; };
+		048FAC1E239F601E000DFCEA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		048FAC1F239F601E000DFCEA /* AES160hashcLOCI_GenWitness.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AES160hashcLOCI_GenWitness.cpp; sourceTree = "<group>"; };
+		048FAC20239F601E000DFCEA /* AES160hashcLOCI.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AES160hashcLOCI.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		048FAC10239F601E000DFCEA = {
+			isa = PBXGroup;
+			children = (
+				048FAC16239F601E000DFCEA /* AES160hashcLOCI_EvalPoly.cpp */,
+				048FAC17239F601E000DFCEA /* Makefile */,
+				048FAC18239F601E000DFCEA /* AES160hashcLOCI_instance.hpp */,
+				048FAC19239F601E000DFCEA /* AES160hashcLOCI_constraints.cpp */,
+				048FAC1A239F601E000DFCEA /* constraints_AES160hashcLOCI.txt */,
+				048FAC1B239F601E000DFCEA /* row_constraints_parser_AES160LOCIhashc.py */,
+				048FAC1C239F601E000DFCEA /* AES160hashcLOCI_instance.cpp */,
+				048FAC1D239F601E000DFCEA /* AES160hashcLOCI_witness.cpp */,
+				048FAC1E239F601E000DFCEA /* main.cpp */,
+				048FAC1F239F601E000DFCEA /* AES160hashcLOCI_GenWitness.cpp */,
+				048FAC20239F601E000DFCEA /* AES160hashcLOCI.hpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		048FAC15239F601E000DFCEA /* starkdpm */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 048FAC21239F601E000DFCEA /* Build configuration list for PBXLegacyTarget "starkdpm" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/mac/libSTARK/starkdpm;
+			dependencies = (
+			);
+			name = starkdpm;
+			passBuildSettingsInEnvironment = 1;
+			productName = starkdpm;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		048FAC11239F601E000DFCEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 048FAC14239F601E000DFCEA /* Build configuration list for PBXProject "starkdpm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 048FAC10239F601E000DFCEA;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048FAC15239F601E000DFCEA /* starkdpm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		048FAC12239F601E000DFCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		048FAC13239F601E000DFCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		048FAC22239F601E000DFCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = starkdpm;
+			};
+			name = Debug;
+		};
+		048FAC23239F601E000DFCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = starkdpm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048FAC14239F601E000DFCEA /* Build configuration list for PBXProject "starkdpm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048FAC12239F601E000DFCEA /* Debug */,
+				048FAC13239F601E000DFCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048FAC21239F601E000DFCEA /* Build configuration list for PBXLegacyTarget "starkdpm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048FAC22239F601E000DFCEA /* Debug */,
+				048FAC23239F601E000DFCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048FAC11239F601E000DFCEA /* Project object */;
+}

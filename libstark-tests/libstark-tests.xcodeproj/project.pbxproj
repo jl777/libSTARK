@@ -1,0 +1,150 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		048FAC05239F601E000DFCEA /* BairToAcsp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BairToAcsp; sourceTree = "<group>"; };
+		048FAC06239F601E000DFCEA /* lightCircLib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lightCircLib; sourceTree = "<group>"; };
+		048FAC07239F601E000DFCEA /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		048FAC08239F601E000DFCEA /* BairWitnessChecker_UTEST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BairWitnessChecker_UTEST.cpp; sourceTree = "<group>"; };
+		048FAC09239F601E000DFCEA /* BairWitnessChecker_UTEST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BairWitnessChecker_UTEST.hpp; sourceTree = "<group>"; };
+		048FAC0A239F601E000DFCEA /* AcspWitnessChecker_UTEST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AcspWitnessChecker_UTEST.cpp; sourceTree = "<group>"; };
+		048FAC0B239F601E000DFCEA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		048FAC0C239F601E000DFCEA /* MerkleCommitment_UTEST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MerkleCommitment_UTEST.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		048FABFF239F601E000DFCEA = {
+			isa = PBXGroup;
+			children = (
+				048FAC05239F601E000DFCEA /* BairToAcsp */,
+				048FAC06239F601E000DFCEA /* lightCircLib */,
+				048FAC07239F601E000DFCEA /* Makefile */,
+				048FAC08239F601E000DFCEA /* BairWitnessChecker_UTEST.cpp */,
+				048FAC09239F601E000DFCEA /* BairWitnessChecker_UTEST.hpp */,
+				048FAC0A239F601E000DFCEA /* AcspWitnessChecker_UTEST.cpp */,
+				048FAC0B239F601E000DFCEA /* main.cpp */,
+				048FAC0C239F601E000DFCEA /* MerkleCommitment_UTEST.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		048FAC04239F601E000DFCEA /* libstark-tests */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 048FAC0D239F601E000DFCEA /* Build configuration list for PBXLegacyTarget "libstark-tests" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/mac/libSTARK/libstark-tests";
+			dependencies = (
+			);
+			name = "libstark-tests";
+			passBuildSettingsInEnvironment = 1;
+			productName = "libstark-tests";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		048FAC00239F601E000DFCEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 048FAC03239F601E000DFCEA /* Build configuration list for PBXProject "libstark-tests" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 048FABFF239F601E000DFCEA;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048FAC04239F601E000DFCEA /* libstark-tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		048FAC01239F601E000DFCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		048FAC02239F601E000DFCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		048FAC0E239F601E000DFCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "libstark-tests";
+			};
+			name = Debug;
+		};
+		048FAC0F239F601E000DFCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "libstark-tests";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048FAC03239F601E000DFCEA /* Build configuration list for PBXProject "libstark-tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048FAC01239F601E000DFCEA /* Debug */,
+				048FAC02239F601E000DFCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048FAC0D239F601E000DFCEA /* Build configuration list for PBXLegacyTarget "libstark-tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048FAC0E239F601E000DFCEA /* Debug */,
+				048FAC0F239F601E000DFCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048FAC00239F601E000DFCEA /* Project object */;
+}
